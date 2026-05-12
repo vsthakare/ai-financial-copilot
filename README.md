@@ -240,6 +240,14 @@ Compare Apple and Microsoft
 
 ---
 
+# Live Demo
+
+Frontend: https://ai-financial-copilot-airpr7cfewbene9rtqzkex.streamlit.app/p
+
+Backend API Docs: https://ai-financial-copilot-api.onrender.com
+
+---
+
 # Future Improvements
 
 - Vector database memory
