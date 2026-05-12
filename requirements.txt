@@ -10,3 +10,4 @@ yfinance
 langgraph
 langchain
 openai
+pydantic
