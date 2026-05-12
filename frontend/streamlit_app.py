@@ -16,7 +16,7 @@ import pandas as pd
 
 from tools.chart_tools import create_stock_chart
 
-API_BASE = "http://127.0.0.1:8001"
+API_BASE = API_BASE = "https://ai-financial-copilot-api.onrender.com"
 
 # =====================================================
 # PAGE CONFIG
