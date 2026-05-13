@@ -132,11 +132,6 @@ financial-agent/
 │   ├── __init__.py
 │   └── parser.py
 │
-├── screenshots/
-│   ├── chat_ui.png
-│   ├── comparison.png
-│   └── technical_analysis.png
-│
 ├── .env.example
 ├── requirements.txt
 └── README.md
@@ -146,7 +141,7 @@ financial-agent/
 
 # Setup Instructions
 
-## 1. Clone Repository
+## 1️⃣ Clone Repository
 
 ```bash
 git clone <your_repo_url>
@@ -155,7 +150,7 @@ cd financial-agent
 
 ---
 
-## 2. Create Virtual Environment
+## 2️⃣ Create Virtual Environment
 
 ### Mac/Linux
 
@@ -173,7 +168,7 @@ python -m venv .venv
 
 ---
 
-## 3. Install Dependencies
+## 3️⃣ Install Dependencies
 
 ```bash
 pip install -r requirements.txt
@@ -192,7 +187,7 @@ GROQ_API_KEY=your_groq_api_key
 
 ---
 
-# Run Backend
+# ▶️ Run Backend
 
 ```bash
 uvicorn app.main:app --reload --port 8001
@@ -206,7 +201,7 @@ http://127.0.0.1:8001/docs
 
 ---
 
-# Run Frontend
+# ▶️ Run Frontend
 
 ```bash
 streamlit run frontend/streamlit_app.py
@@ -217,6 +212,14 @@ Frontend:
 ```text
 http://localhost:8501
 ```
+
+---
+
+# Live Demo
+
+Frontend: https://ai-financial-copilot-airpr7cfewbene9rtqzkex.streamlit.app/p
+
+Backend API Docs: https://ai-financial-copilot-api.onrender.com/
 
 ---
 
@@ -240,13 +243,6 @@ Compare Apple and Microsoft
 
 ---
 
-# Live Demo
-
-Frontend: https://ai-financial-copilot-airpr7cfewbene9rtqzkex.streamlit.app/p
-
-Backend API Docs: https://ai-financial-copilot-api.onrender.com
-
----
 
 # Future Improvements
 
@@ -275,7 +271,7 @@ This project demonstrates:
 
 ---
 
-# Author
+# 👨Author
 
 Vedant Thakare
 
@@ -284,3 +280,4 @@ Vedant Thakare
 # License
 
 MIT License
+
