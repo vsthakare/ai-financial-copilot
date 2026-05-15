@@ -144,7 +144,7 @@ financial-agent/
 ## 1️⃣ Clone Repository
 
 ```bash
-git clone <your_repo_url>
+git clone https://github.com/vsthakare/ai-financial-copilot
 cd financial-agent
 ```
 
@@ -271,7 +271,7 @@ This project demonstrates:
 
 ---
 
-# 👨Author
+# Author
 
 Vedant Thakare
 
